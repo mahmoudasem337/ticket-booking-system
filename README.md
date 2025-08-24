@@ -59,7 +59,6 @@ It demonstrates a complete microservice architecture with scalability, fault tol
   <img src="https://www.vectorlogo.zone/logos/elastic/elastic-ar21.svg" alt="Elasticsearch" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/redis/redis-ar21.svg" alt="Redis" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="Docker" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/netflix/netflix-ar21.svg" alt="Eureka" height="40"/>
   <img width="80" height="80" alt="1-removebg-preview" src="https://github.com/user-attachments/assets/0966a12b-ec21-436b-baa8-1ce806b26fd6" />
   <img width="80" height="80" alt="2-removebg-preview" src="https://github.com/user-attachments/assets/011e6647-70e0-40b8-93ce-5166da61b726" />
 
