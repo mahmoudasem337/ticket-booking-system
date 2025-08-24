@@ -1,0 +1,2 @@
+ALTER TABLE ticket
+DROP COLUMN price;

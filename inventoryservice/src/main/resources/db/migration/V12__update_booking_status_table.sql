@@ -1,0 +1,1 @@
+ALTER TABLE booking MODIFY status VARCHAR(20);

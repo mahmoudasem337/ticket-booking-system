@@ -1,0 +1,9 @@
+CREATE TABLE booking (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    event_id BIGINT NOT NULL,
+    customer_id BIGINT NOT NULL,
+    status ENUM('PENDING', 'CONFIRMED', 'CANCELLED') NOT NULL DEFAULT 'PENDING',
+    booking_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (event_id) REFERENCES event(id),
+    FOREIGN KEY (customer_id) REFERENCES customer(id)
+);

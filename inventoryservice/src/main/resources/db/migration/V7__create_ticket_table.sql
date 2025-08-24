@@ -1,0 +1,9 @@
+CREATE TABLE ticket (
+    ticket_id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    event_id BIGINT NOT NULL,
+    seat_number VARCHAR(50),
+    price DECIMAL(10, 2) NOT NULL,
+    status ENUM('AVAILABLE', 'SOLD') DEFAULT 'AVAILABLE',
+
+    FOREIGN KEY (event_id) REFERENCES event(id) ON DELETE CASCADE
+);
