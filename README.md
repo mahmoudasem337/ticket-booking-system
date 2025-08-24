@@ -51,15 +51,19 @@ It demonstrates a complete microservice architecture with scalability, fault tol
 
 ## Tech Stack
 
-- **Backend Framework:** Spring Boot (3.x)
-- **Service Discovery:** Netflix Eureka
-- **API Gateway:** Spring Cloud Gateway
-- **Messaging/Event Streaming:** Apache Kafka
-- **Change Data Capture (CDC):** Debezium
-- **Database:** MySQL
-- **Search Engine:** Elasticsearch
-- **Cache:** Redis
-- **DB Migrations Manager:** Flyway
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="Java" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-ar21.svg" alt="Spring Boot" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="MySQL" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-ar21.svg" alt="Kafka" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/elastic/elastic-ar21.svg" alt="Elasticsearch" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/redis/redis-ar21.svg" alt="Redis" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="Docker" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/netflix/netflix-ar21.svg" alt="Eureka" height="40"/>
+  <img width="80" height="80" alt="1-removebg-preview" src="https://github.com/user-attachments/assets/0966a12b-ec21-436b-baa8-1ce806b26fd6" />
+  <img width="80" height="80" alt="2-removebg-preview" src="https://github.com/user-attachments/assets/011e6647-70e0-40b8-93ce-5166da61b726" />
+
+</p>
 
 ---
 ## Screenshots
@@ -90,7 +94,7 @@ Make sure you have installed:
 - [Elasticsearch 8+] 
 - [Debezium]
 - [Flyway] 
-- [Postman] 
+- [Postman]
 
 
 ### Clone Repository
